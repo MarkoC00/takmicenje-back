@@ -1,0 +1,15 @@
+C:\Users\Cupara\Desktop\TakmicenjeAplikacija\BusinessAccess\bin\Debug\net6.0\BusinessAccess.deps.json
+C:\Users\Cupara\Desktop\TakmicenjeAplikacija\BusinessAccess\bin\Debug\net6.0\BusinessAccess.dll
+C:\Users\Cupara\Desktop\TakmicenjeAplikacija\BusinessAccess\bin\Debug\net6.0\BusinessAccess.pdb
+C:\Users\Cupara\Desktop\TakmicenjeAplikacija\BusinessAccess\bin\Debug\net6.0\DataAccessLayer.dll
+C:\Users\Cupara\Desktop\TakmicenjeAplikacija\BusinessAccess\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\Cupara\Desktop\TakmicenjeAplikacija\BusinessAccess\obj\Debug\net6.0\BusinessAccess.csproj.AssemblyReference.cache
+C:\Users\Cupara\Desktop\TakmicenjeAplikacija\BusinessAccess\obj\Debug\net6.0\BusinessAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cupara\Desktop\TakmicenjeAplikacija\BusinessAccess\obj\Debug\net6.0\BusinessAccess.AssemblyInfoInputs.cache
+C:\Users\Cupara\Desktop\TakmicenjeAplikacija\BusinessAccess\obj\Debug\net6.0\BusinessAccess.AssemblyInfo.cs
+C:\Users\Cupara\Desktop\TakmicenjeAplikacija\BusinessAccess\obj\Debug\net6.0\BusinessAccess.csproj.CoreCompileInputs.cache
+C:\Users\Cupara\Desktop\TakmicenjeAplikacija\BusinessAccess\obj\Debug\net6.0\BusinessAccess.csproj.CopyComplete
+C:\Users\Cupara\Desktop\TakmicenjeAplikacija\BusinessAccess\obj\Debug\net6.0\BusinessAccess.dll
+C:\Users\Cupara\Desktop\TakmicenjeAplikacija\BusinessAccess\obj\Debug\net6.0\refint\BusinessAccess.dll
+C:\Users\Cupara\Desktop\TakmicenjeAplikacija\BusinessAccess\obj\Debug\net6.0\BusinessAccess.pdb
+C:\Users\Cupara\Desktop\TakmicenjeAplikacija\BusinessAccess\obj\Debug\net6.0\ref\BusinessAccess.dll
