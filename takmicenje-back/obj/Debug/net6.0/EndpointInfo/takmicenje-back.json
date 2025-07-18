@@ -1,0 +1,1400 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "takmicenje-back",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/EkipnoBorbeControllercs/createEkipnoBorbe": {
+      "post": {
+        "tags": [
+          "EkipnoBorbeControllercs"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EkipnoBorbe"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EkipnoBorbe"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EkipnoBorbe"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EkipnoBorbeControllercs/deleteEkipnoBorbe/{id}": {
+      "delete": {
+        "tags": [
+          "EkipnoBorbeControllercs"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EkipnoBorbeControllercs/updateEkipnoBorbe/{id}": {
+      "post": {
+        "tags": [
+          "EkipnoBorbeControllercs"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EkipnoBorbe"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EkipnoBorbe"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EkipnoBorbe"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EkipnoBorbeControllercs/getById/{id}": {
+      "get": {
+        "tags": [
+          "EkipnoBorbeControllercs"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EkipnoBorbeControllercs/getAllEkipnoBorbe": {
+      "get": {
+        "tags": [
+          "EkipnoBorbeControllercs"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EkipnoBorbeControllercs/getByImeEkipeEkipnoBorbe/{imeEkipe}": {
+      "get": {
+        "tags": [
+          "EkipnoBorbeControllercs"
+        ],
+        "parameters": [
+          {
+            "name": "imeEkipe",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EkipnoBorbeControllercs/getByKlubEkipnoBorbe/{klub}": {
+      "get": {
+        "tags": [
+          "EkipnoBorbeControllercs"
+        ],
+        "parameters": [
+          {
+            "name": "idKluba",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "klub",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EkipnoBorbeControllercs/getByKlasaEkipnoBorbe": {
+      "get": {
+        "tags": [
+          "EkipnoBorbeControllercs"
+        ],
+        "parameters": [
+          {
+            "name": "uzrastPol",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EkipnoKate/create": {
+      "post": {
+        "tags": [
+          "EkipnoKate"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EkipnoKate"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EkipnoKate"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EkipnoKate"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EkipnoKate/update/{id}": {
+      "put": {
+        "tags": [
+          "EkipnoKate"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EkipnoKate"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EkipnoKate"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EkipnoKate"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EkipnoKate/delete/{id}": {
+      "delete": {
+        "tags": [
+          "EkipnoKate"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EkipnoKate": {
+      "get": {
+        "tags": [
+          "EkipnoKate"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EkipnoKate/get/{id}": {
+      "get": {
+        "tags": [
+          "EkipnoKate"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EkipnoKate/getImeEkipe/{imeEkipe}": {
+      "get": {
+        "tags": [
+          "EkipnoKate"
+        ],
+        "parameters": [
+          {
+            "name": "imeEkipe",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EkipnoKate/get/{klub}": {
+      "get": {
+        "tags": [
+          "EkipnoKate"
+        ],
+        "parameters": [
+          {
+            "name": "idKluba",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "klub",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EkipnoKate/get-by-uzrast-pol": {
+      "get": {
+        "tags": [
+          "EkipnoKate"
+        ],
+        "parameters": [
+          {
+            "name": "uzrastPol",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Klub/create": {
+      "post": {
+        "tags": [
+          "Klub"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Klub"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Klub"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Klub"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Klub/update/{id}": {
+      "put": {
+        "tags": [
+          "Klub"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Klub"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Klub"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Klub"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Klub/delete/{id}": {
+      "delete": {
+        "tags": [
+          "Klub"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Klub": {
+      "get": {
+        "tags": [
+          "Klub"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Klub/get/{id}": {
+      "get": {
+        "tags": [
+          "Klub"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Klub/getIme/{imeKluba}": {
+      "get": {
+        "tags": [
+          "Klub"
+        ],
+        "parameters": [
+          {
+            "name": "imeKluba",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Klub/getGrad/{grad}": {
+      "get": {
+        "tags": [
+          "Klub"
+        ],
+        "parameters": [
+          {
+            "name": "grad",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Klub/getDrzava/{drzava}": {
+      "get": {
+        "tags": [
+          "Klub"
+        ],
+        "parameters": [
+          {
+            "name": "drzava",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PrijavaTakmicara/create": {
+      "post": {
+        "tags": [
+          "PrijavaTakmicara"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Takmicar"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Takmicar"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Takmicar"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PrijavaTakmicara/update/{id}": {
+      "post": {
+        "tags": [
+          "PrijavaTakmicara"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrijavaTakmicara"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrijavaTakmicara"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrijavaTakmicara"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PrijavaTakmicara/{prijavaTakmicaraId}/prijavi-u-tim/{ekipnoKateId}": {
+      "post": {
+        "tags": [
+          "PrijavaTakmicara"
+        ],
+        "parameters": [
+          {
+            "name": "prijavaTakmicaraId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ekipnoKateId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PrijavaTakmicara/delete/{id}": {
+      "delete": {
+        "tags": [
+          "PrijavaTakmicara"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrijavaTakmicara"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrijavaTakmicara"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrijavaTakmicara"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PrijavaTakmicara/get-all": {
+      "get": {
+        "tags": [
+          "PrijavaTakmicara"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PrijavaTakmicara/get-by-name-prijava": {
+      "get": {
+        "tags": [
+          "PrijavaTakmicara"
+        ],
+        "parameters": [
+          {
+            "name": "imePrezime",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PrijavaTakmicara/get-by-clasa": {
+      "get": {
+        "tags": [
+          "PrijavaTakmicara"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PrijavaTakmicaraBorbe/create": {
+      "post": {
+        "tags": [
+          "PrijavaTakmicaraBorbe"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Takmicar"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Takmicar"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Takmicar"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PrijavaTakmicaraBorbe/update/{id}": {
+      "post": {
+        "tags": [
+          "PrijavaTakmicaraBorbe"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrijavaTakmicaraBorbe"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrijavaTakmicaraBorbe"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrijavaTakmicaraBorbe"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PrijavaTakmicaraBorbe/{prijavaTakmicaraId}/prijavi-u-tim-borbe/{ekipnoBorbeId}": {
+      "post": {
+        "tags": [
+          "PrijavaTakmicaraBorbe"
+        ],
+        "parameters": [
+          {
+            "name": "prijavaTakmicaraId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ekipnoBorbeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PrijavaTakmicaraBorbe/delete/{id}": {
+      "delete": {
+        "tags": [
+          "PrijavaTakmicaraBorbe"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrijavaTakmicaraBorbe"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrijavaTakmicaraBorbe"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PrijavaTakmicaraBorbe"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PrijavaTakmicaraBorbe/get-all": {
+      "get": {
+        "tags": [
+          "PrijavaTakmicaraBorbe"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PrijavaTakmicaraBorbe/get-by-name-prijava-borbe": {
+      "get": {
+        "tags": [
+          "PrijavaTakmicaraBorbe"
+        ],
+        "parameters": [
+          {
+            "name": "imePrezime",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/PrijavaTakmicaraBorbe/get-by-klasa-borbi": {
+      "get": {
+        "tags": [
+          "PrijavaTakmicaraBorbe"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Takmicar": {
+      "get": {
+        "tags": [
+          "Takmicar"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Takmicar/{id}": {
+      "get": {
+        "tags": [
+          "Takmicar"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Takmicar/get-by-name": {
+      "get": {
+        "tags": [
+          "Takmicar"
+        ],
+        "parameters": [
+          {
+            "name": "imePrezime",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Takmicar/create": {
+      "post": {
+        "tags": [
+          "Takmicar"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Takmicar"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Takmicar"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Takmicar"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Takmicar/update/{id}": {
+      "post": {
+        "tags": [
+          "Takmicar"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Takmicar"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Takmicar"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Takmicar"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Takmicar/delete/{id}": {
+      "delete": {
+        "tags": [
+          "Takmicar"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "EkipnoBorbe": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idKLuba": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "imeEkipe": {
+            "type": "string",
+            "nullable": true
+          },
+          "uzrast": {
+            "type": "string",
+            "nullable": true
+          },
+          "pol": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EkipnoKate": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idKLuba": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "imeEkipe": {
+            "type": "string",
+            "nullable": true
+          },
+          "uzrast": {
+            "type": "string",
+            "nullable": true
+          },
+          "pol": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Klub": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "hashSifra": {
+            "type": "string",
+            "nullable": true
+          },
+          "imeKluba": {
+            "type": "string",
+            "nullable": true
+          },
+          "grad": {
+            "type": "string",
+            "nullable": true
+          },
+          "zip": {
+            "type": "string",
+            "nullable": true
+          },
+          "drzava": {
+            "type": "string",
+            "nullable": true
+          },
+          "adresa": {
+            "type": "string",
+            "nullable": true
+          },
+          "brojTelefona": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pol": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "PrijavaTakmicara": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idTakmicara": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idEkipe": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "godisteTakmicara": {
+            "type": "string",
+            "nullable": true
+          },
+          "klasaTakmicara": {
+            "type": "string",
+            "nullable": true
+          },
+          "klasa": {
+            "type": "boolean"
+          },
+          "apsolutni": {
+            "type": "boolean"
+          },
+          "ekipno": {
+            "type": "boolean"
+          },
+          "polTakmicara": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PrijavaTakmicaraBorbe": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idTakmicara": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idEkipe": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kilaza": {
+            "type": "string",
+            "nullable": true
+          },
+          "pol": {
+            "type": "string",
+            "nullable": true
+          },
+          "godiste": {
+            "type": "string",
+            "nullable": true
+          },
+          "individualno": {
+            "type": "boolean"
+          },
+          "ekipno": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Takmicar": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idKluba": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ime": {
+            "type": "string",
+            "nullable": true
+          },
+          "prezime": {
+            "type": "string",
+            "nullable": true
+          },
+          "pol": {
+            "$ref": "#/components/schemas/Pol"
+          },
+          "godiste": {
+            "type": "string",
+            "nullable": true
+          },
+          "pojas": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

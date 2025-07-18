@@ -63,10 +63,12 @@ namespace DataAccessLayer.Repositories
             var postojeciTakmicar = await _dbContext.Takmicari.FindAsync(takmicar.Id);
             if (postojeciTakmicar != null)
             {
+                postojeciTakmicar.IdKluba = takmicar.IdKluba;
                 postojeciTakmicar.Ime = takmicar.Ime;
                 postojeciTakmicar.Prezime = takmicar.Prezime;
                 postojeciTakmicar.Pol = takmicar.Pol;
                 postojeciTakmicar.Godiste = takmicar.Godiste;
+                postojeciTakmicar.Pojas = takmicar.Pojas;
 
                 _dbContext.Takmicari.Update(postojeciTakmicar);
                 await _dbContext.SaveChangesAsync();

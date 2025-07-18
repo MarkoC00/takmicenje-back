@@ -57,7 +57,7 @@ namespace takmicenje_back.Controllers
 
         [HttpGet("get-by-name")]
 
-        public async Task<IActionResult> GetByName([FromBody] string imePrezime)
+        public async Task<IActionResult> GetByName([FromQuery] string imePrezime)
         {
             try
             {
@@ -74,7 +74,7 @@ namespace takmicenje_back.Controllers
 
             catch (Exception ex)
             {
-                return StatusCode(500, $"Greska prilikom pronalayenja korisnika: {ex.Message}");
+                return StatusCode(500, $"Greska prilikom pronalaženja korisnika: {ex.Message}");
             }
         }
 

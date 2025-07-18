@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DataAccessLayer",
+    "\\DataAccessLayer\\Data",
+    "\\DataAccessLayer\\Data\\Config",
+    "\\takmicenje-back"
+  ],
+  "SelectedNode": "\\DataAccessLayer\\Data\\Config\\TakmicarEntityTypeConfiguration.cs",
+  "PreviewInSolutionExplorer": false
+}

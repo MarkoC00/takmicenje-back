@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("takmicenje-back")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77d20b785f611bd51638f4a1f7943a466e903518")]
 [assembly: System.Reflection.AssemblyProductAttribute("takmicenje-back")]
 [assembly: System.Reflection.AssemblyTitleAttribute("takmicenje-back")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -21,6 +21,7 @@ namespace DataAccessLayer.Contracts
 
         Task DeleteAsync (Takmicar takmicar);
 
+
         
     }
 }

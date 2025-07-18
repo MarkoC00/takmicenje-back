@@ -1,0 +1,730 @@
+[
+  {
+    "ContainingType": "takmicenje_back.Controllers.EkipnoBorbeControllercs",
+    "Method": "CreateEkipnoBorbe",
+    "RelativePath": "api/EkipnoBorbeControllercs/createEkipnoBorbe",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ekipa",
+        "Type": "DataAccessLayer.Models.EkipnoBorbe",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.EkipnoBorbeControllercs",
+    "Method": "DeleteEkipnoBorbe",
+    "RelativePath": "api/EkipnoBorbeControllercs/deleteEkipnoBorbe/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.EkipnoBorbeControllercs",
+    "Method": "GetAllEkipnoBorbe",
+    "RelativePath": "api/EkipnoBorbeControllercs/getAllEkipnoBorbe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.EkipnoBorbeControllercs",
+    "Method": "GetByIdEkipnoBorbe",
+    "RelativePath": "api/EkipnoBorbeControllercs/getById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.EkipnoBorbeControllercs",
+    "Method": "GetByImeEkipeAsync",
+    "RelativePath": "api/EkipnoBorbeControllercs/getByImeEkipeEkipnoBorbe/{imeEkipe}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imeEkipe",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.EkipnoBorbeControllercs",
+    "Method": "GetByKlasa",
+    "RelativePath": "api/EkipnoBorbeControllercs/getByKlasaEkipnoBorbe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uzrastPol",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.EkipnoBorbeControllercs",
+    "Method": "GetByKlub",
+    "RelativePath": "api/EkipnoBorbeControllercs/getByKlubEkipnoBorbe/{klub}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idKluba",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "klub",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.EkipnoBorbeControllercs",
+    "Method": "UpdateEkipnoBorbe",
+    "RelativePath": "api/EkipnoBorbeControllercs/updateEkipnoBorbe/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ekipa",
+        "Type": "DataAccessLayer.Models.EkipnoBorbe",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.EkipnoKateController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/EkipnoKate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.EkipnoKateController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/EkipnoKate/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "kate",
+        "Type": "DataAccessLayer.Models.EkipnoKate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.EkipnoKateController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/EkipnoKate/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.EkipnoKateController",
+    "Method": "GetAllByPoliUzrast",
+    "RelativePath": "api/EkipnoKate/get-by-uzrast-pol",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uzrastPol",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.EkipnoKateController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/EkipnoKate/get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.EkipnoKateController",
+    "Method": "GetAllByKlub",
+    "RelativePath": "api/EkipnoKate/get/{klub}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idKluba",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "klub",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.EkipnoKateController",
+    "Method": "GetByImeEkipeAsync",
+    "RelativePath": "api/EkipnoKate/getImeEkipe/{imeEkipe}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imeEkipe",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.EkipnoKateController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/EkipnoKate/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ekipa",
+        "Type": "DataAccessLayer.Models.EkipnoKate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.KlubController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Klub",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.KlubController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/Klub/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "klub",
+        "Type": "DataAccessLayer.Models.Klub",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.KlubController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Klub/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.KlubController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Klub/get/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.KlubController",
+    "Method": "GetByDrzavaAsync",
+    "RelativePath": "api/Klub/getDrzava/{drzava}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "drzava",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.KlubController",
+    "Method": "GetByGradAsync",
+    "RelativePath": "api/Klub/getGrad/{grad}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "grad",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.KlubController",
+    "Method": "GetByImeKlubaAsync",
+    "RelativePath": "api/Klub/getIme/{imeKluba}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imeKluba",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.KlubController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Klub/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "klub",
+        "Type": "DataAccessLayer.Models.Klub",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.PrijavaTakmicaraController",
+    "Method": "PrijavaTakmicaraUEkipu",
+    "RelativePath": "api/PrijavaTakmicara/{prijavaTakmicaraId}/prijavi-u-tim/{ekipnoKateId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prijavaTakmicaraId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ekipnoKateId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.PrijavaTakmicaraController",
+    "Method": "CreatePrijavaTakmicara",
+    "RelativePath": "api/PrijavaTakmicara/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "takmicar",
+        "Type": "DataAccessLayer.Models.Takmicar",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.PrijavaTakmicaraController",
+    "Method": "Delete",
+    "RelativePath": "api/PrijavaTakmicara/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prijavaTakmicara",
+        "Type": "DataAccessLayer.Models.PrijavaTakmicara",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.PrijavaTakmicaraController",
+    "Method": "GetAll",
+    "RelativePath": "api/PrijavaTakmicara/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.PrijavaTakmicaraController",
+    "Method": "GetByKlasa",
+    "RelativePath": "api/PrijavaTakmicara/get-by-clasa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "klasa",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.PrijavaTakmicaraController",
+    "Method": "GetByImeIPrezimeAsync",
+    "RelativePath": "api/PrijavaTakmicara/get-by-name-prijava",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imePrezime",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.PrijavaTakmicaraController",
+    "Method": "Update",
+    "RelativePath": "api/PrijavaTakmicara/update/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prijavaTakmicara",
+        "Type": "DataAccessLayer.Models.PrijavaTakmicara",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.PrijavaTakmicaraBorbeController",
+    "Method": "PrijavaTakmicaraUEkipu",
+    "RelativePath": "api/PrijavaTakmicaraBorbe/{prijavaTakmicaraId}/prijavi-u-tim-borbe/{ekipnoBorbeId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prijavaTakmicaraId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ekipnoBorbeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.PrijavaTakmicaraBorbeController",
+    "Method": "CreatePrijavaTakmicaraBorbe",
+    "RelativePath": "api/PrijavaTakmicaraBorbe/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "takmicar",
+        "Type": "DataAccessLayer.Models.Takmicar",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.PrijavaTakmicaraBorbeController",
+    "Method": "Delete",
+    "RelativePath": "api/PrijavaTakmicaraBorbe/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prijavaTakmicara",
+        "Type": "DataAccessLayer.Models.PrijavaTakmicaraBorbe",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.PrijavaTakmicaraBorbeController",
+    "Method": "GetAll",
+    "RelativePath": "api/PrijavaTakmicaraBorbe/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.PrijavaTakmicaraBorbeController",
+    "Method": "GetByKlasa",
+    "RelativePath": "api/PrijavaTakmicaraBorbe/get-by-klasa-borbi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "klasa",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.PrijavaTakmicaraBorbeController",
+    "Method": "GetByImeIPrezimeAsync",
+    "RelativePath": "api/PrijavaTakmicaraBorbe/get-by-name-prijava-borbe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imePrezime",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.PrijavaTakmicaraBorbeController",
+    "Method": "Update",
+    "RelativePath": "api/PrijavaTakmicaraBorbe/update/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "prijavaTakmicara",
+        "Type": "DataAccessLayer.Models.PrijavaTakmicaraBorbe",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.TakmicarController",
+    "Method": "GetAll",
+    "RelativePath": "api/Takmicar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.TakmicarController",
+    "Method": "GetByID",
+    "RelativePath": "api/Takmicar/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.TakmicarController",
+    "Method": "CreateTakmicar",
+    "RelativePath": "api/Takmicar/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "takmicar",
+        "Type": "DataAccessLayer.Models.Takmicar",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.TakmicarController",
+    "Method": "Delete",
+    "RelativePath": "api/Takmicar/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.TakmicarController",
+    "Method": "GetByName",
+    "RelativePath": "api/Takmicar/get-by-name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imePrezime",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "takmicenje_back.Controllers.TakmicarController",
+    "Method": "Update",
+    "RelativePath": "api/Takmicar/update/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "takmicar",
+        "Type": "DataAccessLayer.Models.Takmicar",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

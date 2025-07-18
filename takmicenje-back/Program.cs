@@ -22,6 +22,21 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
 builder.Services.AddScoped<ITakmicarService, TakmicarService>();
 builder.Services.AddScoped<ITakmicarRepository, TakmicarRepository>();
 
+builder.Services.AddScoped<IPrijavaTakmicaraService, PrijavaTakmicaraService>();
+builder.Services.AddScoped<IPrijavaTakmicaraRepository, PrijavaTakmicaraRepository>();
+
+builder.Services.AddScoped<IKlubService, KlubService>();
+builder.Services.AddScoped<IKlubRepository, KlubRepository>();
+
+builder.Services.AddScoped<IEkipnoKateService, EkipnoKateService>();
+builder.Services.AddScoped<IEkipnoKateRepository, EkipnoKateRepository>();
+
+builder.Services.AddScoped<IPrijaveTakmicaraBorbeService, PrijavaTakmicaraBorbeService>();
+builder.Services.AddScoped<IPrijavaTakmicaraBorbeRepository, PrijavaTakmicaraBorbeRepository>();
+
+builder.Services.AddScoped<IEkipnoBorbeService, EkipnoBorbeService>();
+builder.Services.AddScoped<IEkipnoBorbeRepository, EkipnoBorbeRepository>();
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigins", builder =>

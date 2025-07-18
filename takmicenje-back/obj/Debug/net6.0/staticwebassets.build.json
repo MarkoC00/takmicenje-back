@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "L3XgPoBPXOBeT80652NL2Ll8fm2Y8zwVWAgI4NYvBVc=",
+  "Hash": "1DkFBjYE+aJ1ToWSrixwQ0IkU0wJpuWfgbWRAQvLlbA=",
   "Source": "takmicenje-back",
   "BasePath": "_content/takmicenje-back",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

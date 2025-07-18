@@ -18,10 +18,13 @@ namespace DataAccessLayer.Data.Config
             builder.ToTable("takmicar");
             builder.HasKey(t => t.Id);
 
-
             builder.Property(t => t.Id)
                 .HasColumnName("id")
                 .ValueGeneratedOnAdd();
+
+            builder.Property(t => t.IdKluba)
+               .HasColumnName("id_klub")
+               .ValueGeneratedNever();
 
             builder.Property(t => t.Ime)
                 .HasColumnName("ime")
@@ -44,6 +47,11 @@ namespace DataAccessLayer.Data.Config
             builder.Property(t => t.Godiste)
                 .HasColumnName("godiste")
                 .HasMaxLength(10)
+                .IsRequired();
+
+            builder.Property(t => t.Pojas)
+                .HasColumnName("pojas")
+                .HasMaxLength(50)
                 .IsRequired();
 
         }
