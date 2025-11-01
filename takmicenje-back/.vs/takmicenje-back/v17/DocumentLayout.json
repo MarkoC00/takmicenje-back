@@ -3,10 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\takmicenje-back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87FDBFD4-5188-41C1-9371-1DF5B23AC76B}|..\\DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\markoc\\desktop\\takmicenje-back\\dataaccesslayer\\repositories\\prijavatakmicararepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87FDBFD4-5188-41C1-9371-1DF5B23AC76B}|..\\DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\markoc\\desktop\\takmicenje-back\\dataaccesslayer\\models\\takmicar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87FDBFD4-5188-41C1-9371-1DF5B23AC76B}|..\\DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\markoc\\desktop\\takmicenje-back\\dataaccesslayer\\repositories\\takmicarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87FDBFD4-5188-41C1-9371-1DF5B23AC76B}|..\\DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\markoc\\desktop\\takmicenje-back\\dataaccesslayer\\repositories\\klubrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87FDBFD4-5188-41C1-9371-1DF5B23AC76B}|..\\DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\markoc\\desktop\\takmicenje-back\\dataaccesslayer\\models\\klub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5F575E1-1662-4373-B3F1-F44A9055B55C}|takmicenje-back.csproj|c:\\users\\markoc\\desktop\\takmicenje-back\\takmicenje-back\\controllers\\klubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5F575E1-1662-4373-B3F1-F44A9055B55C}|takmicenje-back.csproj|solutionrelative:controllers\\klubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87FDBFD4-5188-41C1-9371-1DF5B23AC76B}|..\\DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\markoc\\desktop\\takmicenje-back\\dataaccesslayer\\data\\config\\ekipnoborbeentitytypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87FDBFD4-5188-41C1-9371-1DF5B23AC76B}|..\\DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\markoc\\desktop\\takmicenje-back\\dataaccesslayer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87FDBFD4-5188-41C1-9371-1DF5B23AC76B}|..\\DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\markoc\\desktop\\takmicenje-back\\dataaccesslayer\\repositories\\ekipnokaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87FDBFD4-5188-41C1-9371-1DF5B23AC76B}|..\\DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\markoc\\desktop\\takmicenje-back\\dataaccesslayer\\models\\ekipnoborbe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87FDBFD4-5188-41C1-9371-1DF5B23AC76B}|..\\DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\markoc\\desktop\\takmicenje-back\\dataaccesslayer\\contracts\\iekipnoborberepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CAE9086-B057-4C10-B1B6-40B749B2876C}|..\\BusinessAccess\\BusinessAccess.csproj|c:\\users\\markoc\\desktop\\takmicenje-back\\businessaccess\\services\\ekipnoborbeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87FDBFD4-5188-41C1-9371-1DF5B23AC76B}|..\\DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\markoc\\desktop\\takmicenje-back\\dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87FDBFD4-5188-41C1-9371-1DF5B23AC76B}|..\\DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\markoc\\desktop\\takmicenje-back\\dataaccesslayer\\models\\prijavatakmicara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87FDBFD4-5188-41C1-9371-1DF5B23AC76B}|..\\DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\markoc\\desktop\\takmicenje-back\\dataaccesslayer\\repositories\\prijavatakmicararepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,28 +62,171 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PrijavaTakmicaraRepository.cs",
-              "DocumentMoniker": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Repositories\\PrijavaTakmicaraRepository.cs",
-              "RelativeDocumentMoniker": "..\\DataAccessLayer\\Repositories\\PrijavaTakmicaraRepository.cs",
-              "ToolTip": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Repositories\\PrijavaTakmicaraRepository.cs",
-              "RelativeToolTip": "..\\DataAccessLayer\\Repositories\\PrijavaTakmicaraRepository.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwCYAAAAiAAAAAAAAAA==",
+              "Title": "Takmicar.cs",
+              "DocumentMoniker": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Models\\Takmicar.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\Models\\Takmicar.cs",
+              "ToolTip": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Models\\Takmicar.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\Models\\Takmicar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T13:32:40.833Z",
+              "WhenOpened": "2025-10-11T15:56:47.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TakmicarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Repositories\\TakmicarRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\Repositories\\TakmicarRepository.cs",
+              "ToolTip": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Repositories\\TakmicarRepository.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\Repositories\\TakmicarRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T15:56:40.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KlubRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Repositories\\KlubRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\Repositories\\KlubRepository.cs",
+              "ToolTip": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Repositories\\KlubRepository.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\Repositories\\KlubRepository.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T15:56:07.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Klub.cs",
+              "DocumentMoniker": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Models\\Klub.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\Models\\Klub.cs",
+              "ToolTip": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Models\\Klub.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\Models\\Klub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T15:54:01.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KlubController.cs",
+              "DocumentMoniker": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\takmicenje-back\\Controllers\\KlubController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KlubController.cs",
+              "ToolTip": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\takmicenje-back\\Controllers\\KlubController.cs",
+              "RelativeToolTip": "Controllers\\KlubController.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAYwJoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T15:48:40.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\Data\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T09:31:53.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EkipnoBorbe.cs",
+              "DocumentMoniker": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Models\\EkipnoBorbe.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\Models\\EkipnoBorbe.cs",
+              "ToolTip": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Models\\EkipnoBorbe.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\Models\\EkipnoBorbe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T09:30:11.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EkipnoBorbeEntityTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Data\\Config\\EkipnoBorbeEntityTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\Data\\Config\\EkipnoBorbeEntityTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Data\\Config\\EkipnoBorbeEntityTypeConfiguration.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\Data\\Config\\EkipnoBorbeEntityTypeConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T09:30:06.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IEkipnoBorbeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Contracts\\IEkipnoBorbeRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\Contracts\\IEkipnoBorbeRepository.cs",
+              "ToolTip": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Contracts\\IEkipnoBorbeRepository.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\Contracts\\IEkipnoBorbeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T09:30:03.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EkipnoBorbeService.cs",
+              "DocumentMoniker": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\BusinessAccess\\Services\\EkipnoBorbeService.cs",
+              "RelativeDocumentMoniker": "..\\BusinessAccess\\Services\\EkipnoBorbeService.cs",
+              "ToolTip": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\BusinessAccess\\Services\\EkipnoBorbeService.cs",
+              "RelativeToolTip": "..\\BusinessAccess\\Services\\EkipnoBorbeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T09:29:57.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataAccessLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\DataAccessLayer.csproj",
+              "ToolTip": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeToolTip": "..\\DataAccessLayer\\DataAccessLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-25T07:57:26.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PrijavaTakmicara.cs",
+              "DocumentMoniker": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Models\\PrijavaTakmicara.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\Models\\PrijavaTakmicara.cs",
+              "ToolTip": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Models\\PrijavaTakmicara.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\Models\\PrijavaTakmicara.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:56:22.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PrijavaTakmicaraRepository.cs",
+              "DocumentMoniker": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Repositories\\PrijavaTakmicaraRepository.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\Repositories\\PrijavaTakmicaraRepository.cs",
+              "ToolTip": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Repositories\\PrijavaTakmicaraRepository.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\Repositories\\PrijavaTakmicaraRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T13:32:40.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "EkipnoKateRepository.cs",
               "DocumentMoniker": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Repositories\\EkipnoKateRepository.cs",
               "RelativeDocumentMoniker": "..\\DataAccessLayer\\Repositories\\EkipnoKateRepository.cs",
               "ToolTip": "C:\\Users\\MarkoC\\Desktop\\takmicenje-back\\DataAccessLayer\\Repositories\\EkipnoKateRepository.cs",
               "RelativeToolTip": "..\\DataAccessLayer\\Repositories\\EkipnoKateRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAqwGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T13:32:38.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T13:32:38.195Z"
             }
           ]
         }
